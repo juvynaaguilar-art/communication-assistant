@@ -10,8 +10,8 @@ let state = {
 
 // Initial Message
 window.onload = () => {
-    addMessage("bot", "Welcome warmly to the Collaborative Clarity Coach! I'm here to help you bridge communication gaps with your colleagues using UDL principles.");
-    addMessage("bot", "To start: Are you practicing today as a **Case Manager** or a **Paraprofessional**?");
+    addMessage("bot", "Welcome to the Collaborative Clarity Coach! I'm here to help you bridge communication gaps with your colleagues using UDL principles.");
+    addMessage("bot", "To start: Are you practicing today as a Case Manager or a Paraprofessional?");
 };
 
 function addMessage(sender, text) {
